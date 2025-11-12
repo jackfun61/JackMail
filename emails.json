@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "from": "alice@example.com",
+    "to": "user@example.com",
+    "subject": "Hello!",
+    "body": "Hi there, just wanted to say hello!",
+    "read": false
+  },
+  {
+    "id": 2,
+    "from": "bob@example.com",
+    "to": "user@example.com",
+    "subject": "Meeting Reminder",
+    "body": "Don't forget our meeting at 3 PM today.",
+    "read": true
+  }
+]
