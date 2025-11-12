@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <button id="composeBtn">Compose</button>
+      <h2>Inbox</h2>
+      <ul id="emailList"></ul>
+    </aside>
+
+    <main class="main-content">
+      <div id="emailView">
+        <h2>Select an email</h2>
+      </div>
+      <div id="composeView" style="display:none;">
+        <h2>Compose Email</h2>
+        <form id="composeForm">
+          <input type="text" id="to" placeholder="To">
+          <input type="text" id="subject" placeholder="Subject">
+          <textarea id="body" placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
